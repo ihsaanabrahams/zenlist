@@ -11,7 +11,7 @@ A minimalist, persistent and private desktop todo app built with Tauri that help
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-blue)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
----
+
 
 ## 🎯 The Philosophy
 
@@ -41,14 +41,6 @@ It's not about doing less; it's about doing what matters, better.
 | **Tiny Footprint** | Built with Tauri, the entire app is less than 10MB. It's fast, lightweight, and respectful of your system resources. |
 
 ---
-
-## 📸 Screenshots
-
-*(Add your actual screenshots here)*
-
-
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML, CSS, Vanilla JavaScript
