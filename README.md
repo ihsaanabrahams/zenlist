@@ -1,32 +1,15 @@
 # zenlist
-Limit to 5 tasks. Find your focus. A minimalist, persistent todo app that helps you prioritize by limiting your daily tasks to just six.
+Limit to 5 tasks. Find your focus.
 
+A minimalist, persistent and private desktop todo app built with Tauri that helps you focus on what truly matters.
+
+> *"Multitasking isn't productivity—it's just distraction wearing a disguise."*
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/ihsaanabrahams)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tauri](https://img.shields.io/badge/Built%20with-Tauri-24C8DB?logo=tauri)](https://tauri.app/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-blue)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-
-**A minimalist, persistent, and private todo app designed to help you focus on what truly matters.**
-
-> *"Multitasking is not efficiency. It's just very convincing distraction."*
-
----
-
-## 📖 Table of Contents
-
-- [The Philosophy](#-the-philosophy)
-- [Features](#-features)
-- [Screenshots](#-screenshots)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Building the App](#building-the-app)
-- [Why I Built This](#-why-i-built-this)
-- [Support the Project](#-support-the-project)
-- [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
@@ -62,3 +45,70 @@ It's not about doing less; it's about doing what matters, better.
 ## 📸 Screenshots
 
 *(Add your actual screenshots here)*
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, Vanilla JavaScript
+- **Build Tool:** Vite
+- **Desktop Framework:** Tauri (Rust) - for a secure, small, and high-performance desktop app.
+- **Persistence:** Tauri's secure storage
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [Rust](https://www.rust-lang.org/tools/install)
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ihsaanabrahams/zenlist.git
+cd zenlist
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+npm run tauri dev
+```
+
+## Building the App
+
+To create a production build for Windows:
+
+```bash
+npm run tauri build
+```
+
+The installer (`.msi` or `.exe`) will be located in one of the following directories:
+
+- `src-tauri/target/release/bundle/msi/`
+- `src-tauri/target/release/bundle/nsis/`
+
+
+### ☕ Support the Project
+If zenlist has helped you tame your to-do list and find your focus, consider supporting its development.
+
+Your donations will help:
+
+- 🐛 Maintain and update the app to ensure compatibility with future Windows versions
+- ✨ Develop new features like optional cloud backup, custom themes, and performance improvements
+- 💻 Cover development costs and keep the project open-source and accessible to everyone
+- 🎯 Support my time so I can continue improving this tool
+
+**Donate** [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-FFDD00?logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/ihsaanabrahams)
+
+💖 Your support, no matter the size, is deeply appreciated and will directly fuel the future of this project.
