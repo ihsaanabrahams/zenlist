@@ -11,7 +11,7 @@ A minimalist, persistent and private desktop todo app built with Tauri that help
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-blue)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-
+![ZenList Screenshot](thumbnail.jpg)
 
 ## 🎯 The Philosophy
 
