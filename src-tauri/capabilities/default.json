@@ -1,0 +1,12 @@
+{
+  "identifier": "default",
+  "description": "Allows the Zen Memo main window to use its built-in commands and window controls.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-start-dragging",
+    "core:window:allow-set-size",
+    "core:window:allow-set-resizable",
+    "core:window:allow-set-min-size"
+  ]
+}
